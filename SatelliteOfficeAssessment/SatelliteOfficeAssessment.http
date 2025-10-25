@@ -1,0 +1,6 @@
+@SatelliteOfficeAssessment_HostAddress = http://localhost:5079
+
+GET {{SatelliteOfficeAssessment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
