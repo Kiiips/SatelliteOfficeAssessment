@@ -63,11 +63,6 @@ PATCH /assets/{id}
 Authorization: Basic MTIzOlBhc3N3b3Jk
 Content-Type: application/json
 
-{
-  "cost": 150
-}
-```
-
 ### Delete Asset
 ```http
 DELETE /assets/{id}
@@ -128,12 +123,6 @@ You can test the API using:
 - **curl** commands
 - **Postman** or similar API client
 - The included `.http` file with VS Code REST Client extension
-
-Example curl command:
-```bash
-curl -X GET "http://localhost:5079/assets" \
-  -H "Authorization: Basic MTIzOlBhc3N3b3Jk"
-```
 
 ## Configuration
 
